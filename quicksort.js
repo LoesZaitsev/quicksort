@@ -36,5 +36,5 @@ var Quicksort = function(array) {
       return arr.length - 1;
 	}
 	
-	return quicksort(array, 0, pivot(array)).join();
+	return quicksort(array, 0, pivot(array));
 };
